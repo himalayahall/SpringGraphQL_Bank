@@ -1,0 +1,8 @@
+enum Currency
+{
+    USD,
+    CAD,
+    EUR,
+    RUP,
+    CHF
+}

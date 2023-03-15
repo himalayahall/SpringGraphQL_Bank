@@ -1,0 +1,9 @@
+# All available queries in this Graphql server
+type Query
+{
+    allBankAccounts : [BankAccount]
+    bankAccount(id : ID) : BankAccount
+    allAccountHolders : [AccountHolder]
+    accountHolder(id : ID) : AccountHolder
+}
+

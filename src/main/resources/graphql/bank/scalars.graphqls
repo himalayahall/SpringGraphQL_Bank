@@ -1,0 +1,11 @@
+scalar LocalDateTime
+
+scalar LocalTime
+
+scalar LocalDate
+
+scalar YearMonth
+
+scalar OffsetDateTime
+
+#scalar BigDecimal

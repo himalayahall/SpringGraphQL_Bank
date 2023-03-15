@@ -1,0 +1,12 @@
+
+type BankAccount
+{
+    id : ID!
+    accountType : AccountType!
+    accountHolder : AccountHolder!
+    createdOn : LocalDate!
+    lastWithdrawalOn : LocalDateTime!
+    active : Boolean!
+    currentBalance : Float!
+    currency : Currency!
+}

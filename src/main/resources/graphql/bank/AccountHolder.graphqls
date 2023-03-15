@@ -1,0 +1,10 @@
+type AccountHolder
+{
+    id : ID!
+    firstName : String!
+    lastName : String!
+    dob : LocalDate!
+    address : String!
+    phone : String!
+    email : String!
+}
