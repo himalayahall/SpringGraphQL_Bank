@@ -1,9 +1,6 @@
 package com.jawaidhakim.model.bank;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
+import jakarta.persistence.*;
 import lombok.*;
 
 import java.time.LocalDate;
@@ -19,11 +16,13 @@ import java.util.UUID;
 @Setter
 @ToString
 @Entity
+@Table(name = "account_holder")
 public class AccountHolder
 {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    String id;
+    Long id;
+
     String firstName;
     String lastName;
     LocalDate dob;

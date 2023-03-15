@@ -12,12 +12,14 @@ import java.time.LocalDateTime;
 @Getter
 @Setter
 @ToString
-@Entity
+@Entity( )
+@Table(name = "bank_account")
 public class BankAccount
 {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    String id;
+    Long id;
+
     @Enumerated(EnumType.STRING)
     AccountType accountType;
 
